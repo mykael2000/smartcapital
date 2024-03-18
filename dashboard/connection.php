@@ -1,11 +1,9 @@
 <?php
 
-$con = mysqli_connect("s1246.usc1.mysecurecloudhost.com", "decoinex_smart", "Smart@20325", "decoinex_smart");
+$con = mysqli_connect("localhost", "smar_smart", "Mykael@1234Gh71", "smar_smart");
 
 // if($con){
 //     echo "connected";
 // }else{
 //     echo "failed";
 // }
-
-?>
