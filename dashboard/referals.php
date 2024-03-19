@@ -1,22 +1,21 @@
 <?php
-include("connection.php");
+include "connection.php";
 session_start();
 ob_start();
-if(!isset($_SESSION['email'])){
-   header('location: ../login.php');
-   
-};
+if (!isset($_SESSION['email'])) {
+    header('location: ../login.php');
+
+}
+;
 $email = $_SESSION['email'];
 $sql = "SELECT * FROM users WHERE email = '$email'";
 $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
 
-
-  
 ?>
- 
 
- 
+
+
 
 
 
@@ -42,14 +41,14 @@ $user = mysqli_fetch_assoc($query);
 <body class="loginarea" style="zoom: 1;">
 <div class="wrapper-account">
   <div class="headerContainer" style="background-color: black;">
-  
+
     <div class="headerInner">
       <div class="hdRight">
         <div class="mainNavRight">
           <div class="navbar">
             <div class="navbar-inner" >
             <img style="display: flex; justify-content: center;" src="../images/smartlogo.png">
-        
+
             </div>
           </div>
         </div>
@@ -71,8 +70,8 @@ $user = mysqli_fetch_assoc($query);
   <div class="user_left">
     <h2>Welcome, <span><?php echo $user['name']; ?></span></h2>
   </div>
-  <div class="affiliate_top">Affiliate Link:<input style="font-size: 9px;" class="ref-link" value="http://smartcapitalzgroup.net/register.php?ref=<?php echo $user['email']; ?>"></div>
-  
+  <div class="affiliate_top">Affiliate Link:<input style="font-size: 9px;" class="ref-link" value="http://smartcapitalztradingpip.com/register.php?ref=<?php echo $user['email']; ?>"></div>
+
   <div class="get_banners"><a href="referals.php">Get Banners</a></div>
 </div>
 <div class="member_right">
@@ -96,7 +95,7 @@ $user = mysqli_fetch_assoc($query);
       </div>
 </div>
     <div class="clear"></div>
-      
+
    </div><!--end column-70-->
 </div>
 </div>
@@ -108,7 +107,7 @@ $user = mysqli_fetch_assoc($query);
       <h1>btc network </h1>
       <h2> wallets: </h2>
       <div class="solid-top">
-		  <a href="https://www.coinbase.com/" class="solidTop1"></a> 
+		  <a href="https://www.coinbase.com/" class="solidTop1"></a>
 		  <a href="https://blockchain.info/" class="solidTop2"></a>
 		  <a href="https://xapo.com/" class="solidTop3"></a>
 		  <a href="https://airbitz.co/" class="solidTop4"></a>
@@ -130,7 +129,7 @@ $user = mysqli_fetch_assoc($query);
 	<div class="footerInner">
 		<div class="ctn-footer-top">
 			<div class="ctn-ft-left">
-				<p>© 2018 smartcapitalzgroup.net All Rights Reserved.</p>
+				<p>© 2018 smartcapitalztradingpip.com All Rights Reserved.</p>
 			</div>
 			<div class="ctn-ft-mid">
 				<a href=""><img src="styles/images/ft-top-ic1.png"></a>
@@ -138,17 +137,17 @@ $user = mysqli_fetch_assoc($query);
 			<div class="ft-solid">
 				<a href="https://www.facebook.com/VisualHyipcom/" target="_blank" class="per"></a>
 				<a href="https://twitter.com/" target="_blank" class="bit"></a>
-				
+
 			</div>
-			
+
 		</div>
 	</div>
 </div> <!-- end bot footer -->
-	
+
 	<script type="text/javascript">
 $(document).ready(function() {
 
-		$('.accordion>dl>dt>a').click(function() 
+		$('.accordion>dl>dt>a').click(function()
 		{
 			$(this).toggleClass("rotate0");
 		});
@@ -156,7 +155,7 @@ $(document).ready(function() {
 			function parsePriceCrypto()
 			{
 				returnString = "";
-				
+
 				$.post( "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,BCH,XRP&tsyms=USD", function( data )
 				{
 					$('#price_btc').text('$'+data['BTC']['USD']);
@@ -167,25 +166,25 @@ $(document).ready(function() {
 				});
 			}
 			parsePriceCrypto();
-			
+
 			setInterval(function()
 			{
 				parsePriceCrypto();
 			}
 			, 5000);
 		});
-		
+
 		$('.language').click(function() {
 			$(this).toggleClass('active');
 		});
-		
+
 		$('.mobileMenu').click(function() {
 			$('.menu').toggleClass('mobile');
 			$(this).toggleClass('rotate');
 		});
 
 
-	</script> 
+	</script>
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript">
 function googleTranslateElementInit() {
@@ -195,4 +194,4 @@ function googleTranslateElementInit() {
 <script src="//code.tidio.co/pr3t8inyylgpi15arlk4awypp1pijwyn.js" async></script>
 </body>
 </html>
-	
+

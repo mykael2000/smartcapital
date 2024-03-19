@@ -1,26 +1,27 @@
 <?php
-include("connection.php");
+include "connection.php";
 session_start();
 ob_start();
-if(!isset($_SESSION['email'])){
-   header('location: ../login.php');
-   
-};
+if (!isset($_SESSION['email'])) {
+    header('location: ../login.php');
+
+}
+;
 $email = $_SESSION['email'];
 $sql = "SELECT * FROM users WHERE email = '$email'";
 $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
 $userid = $user['id'];
-$email= $user['email'];
+$email = $user['email'];
 $status = "pending";
-$tranx_id = rand(1000,9999);
+$tranx_id = rand(1000, 9999);
 $depo = "INSERT into deposit (client_id,tranx_id,email,amount,status) VALUES ('$userid','$tranx_id','$email','','$status')";
-mysqli_query($con,$depo);
-  
-?>
- 
+mysqli_query($con, $depo);
 
- 
+?>
+
+
+
 
 
 
@@ -49,14 +50,14 @@ mysqli_query($con,$depo);
 <body class="loginarea" style="zoom: 1;">
 <div class="wrapper-account">
   <div class="headerContainer" style="background-color: black;">
-  
+
     <div class="headerInner">
       <div class="hdRight">
         <div class="mainNavRight">
           <div class="navbar">
             <div class="navbar-inner" >
             <img style="display: flex; justify-content: center;" src="../images/smartlogo.png">
-        
+
             </div>
           </div>
         </div>
@@ -76,10 +77,10 @@ mysqli_query($con,$depo);
 <div class="member-container">
 <div class="account_top">
   <div class="user_left">
-    <h2>Welcome, <span><?php  echo $user['name']; ?></span></h2>
+    <h2>Welcome, <span><?php echo $user['name']; ?></span></h2>
   </div>
-   <div class="affiliate_top">Affiliate Link:<a style="font-size: 9px;" href="http://smartcapitalzgroup.net/register.php?ref=<?php echo $user['email']; ?>" class="ref-link">http://smartcapitalzgroup.net/index.html?ref=<?php echo $user['email']; ?></a></div>
- 
+   <div class="affiliate_top">Affiliate Link:<a style="font-size: 9px;" href="http://smartcapitalztradingpip.com/register.php?ref=<?php echo $user['email']; ?>" class="ref-link">http://smartcapitalztradingpip.com/index.html?ref=<?php echo $user['email']; ?></a></div>
+
 </div>
 <div class="member_right">
 
@@ -93,7 +94,7 @@ mysqli_query($con,$depo);
 <br><br><font color="black" size="5"><?php echo "deposit your funds to the bitcoin wallet address above:"; ?>
 
 <br>
-                                          
+
 </div>
 </div><!--end column-70-->
 </div>
@@ -106,7 +107,7 @@ mysqli_query($con,$depo);
       <h1>btc network </h1>
       <h2> wallets: </h2>
       <div class="solid-top">
-      <a href="https://www.coinbase.com/" class="solidTop1"></a> 
+      <a href="https://www.coinbase.com/" class="solidTop1"></a>
       <a href="https://blockchain.info/" class="solidTop2"></a>
       <a href="https://xapo.com/" class="solidTop3"></a>
       <a href="https://airbitz.co/" class="solidTop4"></a>
@@ -128,7 +129,7 @@ mysqli_query($con,$depo);
   <div class="footerInner">
     <div class="ctn-footer-top">
       <div class="ctn-ft-left">
-        <p>&copy; 2018 smartcapitalzgroup.net All Rights Reserved.</p>
+        <p>&copy; 2018 smartcapitalztradingpip.com All Rights Reserved.</p>
       </div>
       <div class="ctn-ft-mid">
         <a href=""><img src="styles/images/ft-top-ic1.png"></a>
@@ -136,17 +137,17 @@ mysqli_query($con,$depo);
       <div class="ft-solid">
         <a href="https://www.facebook.com/VisualHyipcom/" target="_blank" class="per"></a>
         <a href="https://twitter.com/" target="_blank" class="bit"></a>
-        
+
       </div>
-      
+
     </div>
   </div>
 </div> <!-- end bot footer -->
-  
+
   <script type="text/javascript">
 $(document).ready(function() {
 
-    $('.accordion>dl>dt>a').click(function() 
+    $('.accordion>dl>dt>a').click(function()
     {
       $(this).toggleClass("rotate0");
     });
@@ -154,7 +155,7 @@ $(document).ready(function() {
       function parsePriceCrypto()
       {
         returnString = "";
-        
+
         $.post( "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,BCH,XRP&tsyms=USD", function( data )
         {
           $('#price_btc').text('$'+data['BTC']['USD']);
@@ -165,18 +166,18 @@ $(document).ready(function() {
         });
       }
       parsePriceCrypto();
-      
+
       setInterval(function()
       {
         parsePriceCrypto();
       }
       , 5000);
     });
-    
+
     $('.language').click(function() {
       $(this).toggleClass('active');
     });
-    
+
     $('.mobileMenu').click(function() {
       $('.menu').toggleClass('mobile');
       $(this).toggleClass('rotate');
@@ -184,8 +185,8 @@ $(document).ready(function() {
 
 
   </script>
-<?php 
-include("../livechat.php");
+<?php
+include "../livechat.php";
 ?>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript">

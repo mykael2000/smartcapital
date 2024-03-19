@@ -1,53 +1,46 @@
 <?php
-include("connection.php");
+include "connection.php";
 session_start();
 ob_start();
-if(!isset($_SESSION['email'])){
-   header('location: ../login.php');
-   
+if (!isset($_SESSION['email'])) {
+    header('location: ../login.php');
+
 }
 
 $email = $_SESSION['email'];
 $sql = "SELECT * FROM users WHERE email = '$email'";
 $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
-if($user['account_status'] !== "activated"){
-   header('location: review.php');
-   
+if ($user['account_status'] !== "activated") {
+    header('location: review.php');
+
 }
 function getUserIP()
 {
     // Get real visitor IP behind CloudFlare network
     if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
-              $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
-              $_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+        $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+        $_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
     }
-    $client  = @$_SERVER['HTTP_CLIENT_IP'];
+    $client = @$_SERVER['HTTP_CLIENT_IP'];
     $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-    $remote  = $_SERVER['REMOTE_ADDR'];
+    $remote = $_SERVER['REMOTE_ADDR'];
 
-    if(filter_var($client, FILTER_VALIDATE_IP))
-    {
+    if (filter_var($client, FILTER_VALIDATE_IP)) {
         $ip = $client;
-    }
-    elseif(filter_var($forward, FILTER_VALIDATE_IP))
-    {
+    } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
         $ip = $forward;
-    }
-    else
-    {
+    } else {
         $ip = $remote;
     }
 
     return $ip;
 }
 
-
 $user_ip = getUserIP();
 
-  
 ?>
- 
+
 
 
 <html>
@@ -71,14 +64,14 @@ $user_ip = getUserIP();
 <body class="loginarea" style="backgrond-color: #371552;">
 <div class="wrapper-account">
   <div class="headerContainer" style="background-color: black;">
-  
+
     <div class="headerInner">
       <div class="hdRight">
         <div class="mainNavRight">
           <div class="navbar">
             <div class="navbar-inner" >
             <img style="display: flex; justify-content: center;" src="../images/smartlogo.png">
-        
+
             </div>
           </div>
         </div>
@@ -98,19 +91,19 @@ $user_ip = getUserIP();
 <div class="member-container">
 <div class="account_top">
   <div class="user_left">
-    <h2>Welcome, <span><?php  echo $user['name']; ?></span></h2>
+    <h2>Welcome, <span><?php echo $user['name']; ?></span></h2>
   </div>
-  <div class="affiliate_top">Affiliate Link:<input style="font-size: 9px;" class="ref-link" value="http://smartcapitalzgroup.net/register.php?ref=<?php echo $user['email']; ?>"></div>
-  
+  <div class="affiliate_top">Affiliate Link:<input style="font-size: 9px;" class="ref-link" value="http://smartcapitalztradingpip.com/register.php?ref=<?php echo $user['email']; ?>"></div>
+
 </div>
 <div class="member_right">
 
 
 <center>
-<?php if(empty($user['kyc'])){ ?>
+<?php if (empty($user['kyc'])) {?>
 
 <div><span class="alert alert-danger">you're yet to start your kyc verification, please click <a href="verify-kyc.php">here</a> to do so</span></div>
-<?php } ?>
+<?php }?>
 
 <h3 class="account_main">Account Overview</h3>
 
@@ -118,32 +111,33 @@ $user_ip = getUserIP();
    <div class="user-info">
         <div class="ctn-invesment-part ctn-invesment-part1">
           <p>Your username:</p>
-          <h6><?php  echo $user['username']; ?></h6>
+          <h6><?php echo $user['username']; ?></h6>
         </div>
         <div class="ctn-invesment-part ctn-invesment-part3">
           <p>Your IP:</p>
-          <h4><?php  echo $user_ip; ?></h4>
+          <h4><?php echo $user_ip; ?></h4>
         </div>
         <div class="ctn-invesment-part ctn-invesment-part2">
           <p>Server Date:</p>
-          <h4><?php $date = date('Y-m-d');  echo $date; ?></h4>
+          <h4><?php $date = date('Y-m-d');
+echo $date;?></h4>
         </div>
-        
+
       </div>
-</div>  
+</div>
 <div class="account_overview_wrap">
   <div class="ctn-invesment-part ctn-invesment-part1"> <span class="imageblock"></span>
-    <h4>$<?php  echo $user['active_deposits']; ?></h4>
+    <h4>$<?php echo $user['active_deposits']; ?></h4>
     <p>ACTIVE DEPOSITS</p>
     <div class="links"><a href="deposit.php">Make A Deposit</a></div>
   </div>
   <div class="ctn-invesment-part ctn-invesment-part2"> <span class="imageblock"></span>
-    <h4>$<?php  echo $user['balance']; ?></h4>
+    <h4>$<?php echo $user['balance']; ?></h4>
     <p>YOUR BALANCE</p>
     <div class="links"><a href="withdraw.php">Withdraw Funds</a></div>
   </div>
   <div class="ctn-invesment-part ctn-invesment-part3"> <span class="imageblock"></span>
-    <h4>$<?php  echo $user['last_deposit']; ?></h4>
+    <h4>$<?php echo $user['last_deposit']; ?></h4>
     <p>Earned Total</p>
     <div class="links"><a href="deposit.php">My Deposits</a></div>
   </div>
@@ -153,24 +147,24 @@ $user_ip = getUserIP();
 <div class="account_stat">
   <div class="contentLeft">
     <div class="ctn-inves-row invers-part5">
-      <p>$<?php  echo $user['bonus']; ?></p>
+      <p>$<?php echo $user['bonus']; ?></p>
       <h1>Investment Bonus</h1>
     </div>
 
     <div class="ctn-inves-row invers-part6">
-      <p>$<?php  echo $user['investment_bonus']; ?></p>
+      <p>$<?php echo $user['investment_bonus']; ?></p>
       <h1>Total Bonus</h1>
     </div>
     <div class="ctn-inves-row invers-part7">
-      <p>$<?php  echo $user['referral_bonus']; ?></p>
+      <p>$<?php echo $user['referral_bonus']; ?></p>
       <h1>Referral Bonus</h1>
     </div>
     <div class="ctn-inves-row invers-part9">
-      <p>$<?php  echo $user['withdrawal']; ?></p>
+      <p>$<?php echo $user['withdrawal']; ?></p>
       <h1>Total Withdrawal</h1>
     </div>
     <div class="ctn-inves-row invers-part10">
-      <p>$<?php  echo $user['pending_withdrawal']; ?></p>
+      <p>$<?php echo $user['pending_withdrawal']; ?></p>
       <h1>Pending Withdrawal</h1>
     </div>
   </div>
@@ -182,9 +176,9 @@ $user_ip = getUserIP();
 </div>
 
 </div>
-  
+
     <div class="clearfix"></div>
- 
+
 
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -250,7 +244,7 @@ $user_ip = getUserIP();
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  
+
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
   {
   "interval": "1m",
@@ -273,7 +267,7 @@ $user_ip = getUserIP();
       <h1>btc network </h1>
       <h2> wallets: </h2>
       <div class="solid-top">
-      <a href="https://www.coinbase.com/" class="solidTop1"></a> 
+      <a href="https://www.coinbase.com/" class="solidTop1"></a>
       <a href="https://blockchain.info/" class="solidTop2"></a>
       <a href="https://xapo.com/" class="solidTop3"></a>
       <a href="https://airbitz.co/" class="solidTop4"></a>
@@ -301,17 +295,17 @@ $user_ip = getUserIP();
       <div class="ft-solid">
         <a href="https://www.facebook.com/VisualHyipcom/" target="_blank" class="per"></a>
         <a href="https://twitter.com/" target="_blank" class="bit"></a>
-        
+
       </div>
-      
+
     </div>
   </div>
 </div> <!-- end bot footer -->
-  
+
   <script type="text/javascript">
 $(document).ready(function() {
 
-    $('.accordion>dl>dt>a').click(function() 
+    $('.accordion>dl>dt>a').click(function()
     {
       $(this).toggleClass("rotate0");
     });
@@ -319,7 +313,7 @@ $(document).ready(function() {
       function parsePriceCrypto()
       {
         returnString = "";
-        
+
         $.post( "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,BCH,XRP&tsyms=USD", function( data )
         {
           $('#price_btc').text('$'+data['BTC']['USD']);
@@ -330,42 +324,42 @@ $(document).ready(function() {
         });
       }
       parsePriceCrypto();
-      
+
       setInterval(function()
       {
         parsePriceCrypto();
       }
       , 5000);
     });
-    
+
     $('.language').click(function() {
       $(this).toggleClass('active');
     });
-    
+
     $('.mobileMenu').click(function() {
       $('.menu').toggleClass('mobile');
       $(this).toggleClass('rotate');
     });
 
 
-  </script> 
+  </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 </script>
-<?php 
-include("../livechat.php");
+<?php
+include "../livechat.php";
 ?>
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
-            whatsapp: "+12136492095", 
+            whatsapp: "+12136492095",
             text: "Hello, how may we help you? Just send us a message now to get assistance.",
             abid:"+12136492095",// WhatsApp number
-           
+
             call_to_action: "Message us", // Call to action
             position: "left", // Position may be 'right' or 'left'
         };
@@ -377,4 +371,3 @@ include("../livechat.php");
 </script>
 <!-- /WhatsHelp.io widget --></body>
 </html>
- 

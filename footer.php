@@ -19,7 +19,7 @@
                             <img src="images/phone.png" width="18px" alt="" />
                         </div>
                         <p>+12533289260</p>
-                       
+
                     </div>
                     <div>
                         <div class="img-box">
@@ -31,7 +31,7 @@
                         <div class="img-box">
                             <img src="images/envelope.png" width="18px" alt="" />
                         </div>
-                        <p>support@smartcapitalzgroup.net</p>
+                        <p>support@smartcapitalztradingpip.com</p>
                     </div>
                 </div>
             </div>
@@ -79,13 +79,13 @@
 </section>
 <!-- footer section -->
 <?php
-include("livechat.php");
+include "livechat.php";
 ?>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
 </script>
-<!-- owl carousel script 
+<!-- owl carousel script
     -->
 <script type="text/javascript">
 $(".owl-carousel").owlCarousel({

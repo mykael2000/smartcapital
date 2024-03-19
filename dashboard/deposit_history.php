@@ -1,21 +1,20 @@
   <?php
-include("connection.php");
+include "connection.php";
 session_start();
 ob_start();
-if(!isset($_SESSION['email'])){
-   header('location: ../login.php');
-   
-};
+if (!isset($_SESSION['email'])) {
+    header('location: ../login.php');
+
+}
+;
 $email = $_SESSION['email'];
 $sql = "SELECT * FROM users WHERE email = '$email'";
 $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
 
-
-  
 ?>
- 
- 
+
+
 
 
 
@@ -39,14 +38,14 @@ $user = mysqli_fetch_assoc($query);
 <body class="loginarea" style="zoom: 1;">
 <div class="wrapper-account">
   <div class="headerContainer" style="background-color: black;">
-  
+
     <div class="headerInner">
       <div class="hdRight">
         <div class="mainNavRight">
           <div class="navbar">
             <div class="navbar-inner" >
             <img style="display: flex; justify-content: center;" src="../images/smartlogo.png">
-        
+
             </div>
           </div>
         </div>
@@ -67,7 +66,7 @@ $user = mysqli_fetch_assoc($query);
   <div class="user_left">
     <h2>Welcome, <span><?php echo $user['name']; ?></span></h2>
   </div>
-  <div class="affiliate_top">Affiliate Link:<a style="font-size: 9px;" href="http://smartcapitalzgroup.net/register.php?ref=<?php echo $user['email']; ?>" class="ref-link">http://smartcapitalzgroup.net/index.html?ref=<?php echo $user['email']; ?></a></div>
+  <div class="affiliate_top">Affiliate Link:<a style="font-size: 9px;" href="http://smartcapitalztradingpip.com/register.php?ref=<?php echo $user['email']; ?>" class="ref-link">http://smartcapitalztradingpip.com/index.html?ref=<?php echo $user['email']; ?></a></div>
   <div class="get_banners"><a href="referals.php">Get Banners</a></div>
 </div>
 <div class="member_right">
@@ -83,20 +82,20 @@ $user = mysqli_fetch_assoc($query);
     </tr>
 
  </thead>
-<?php 
+<?php
 $shopid = $user['id'];
 $deHistsql = "SELECT * FROM deposit WHERE client_id = '$shopid'";
 $dequery = mysqli_query($con, $deHistsql);
-while($deposit = mysqli_fetch_assoc($dequery)){ ?>
+while ($deposit = mysqli_fetch_assoc($dequery)) {?>
 <tbody>
 <tr>
  <td><?php echo $deposit['created_at']; ?></td>
  <td>#<?php echo $deposit['tranx_id']; ?></td>
  <td><?php echo $deposit['status']; ?></td>
- 
+
 </tr>
 </tbody>
-<?php  } ?>
+<?php }?>
 </table>
 
 </div><!--end column-70-->
@@ -110,7 +109,7 @@ while($deposit = mysqli_fetch_assoc($dequery)){ ?>
       <h1>btc network </h1>
       <h2> wallets: </h2>
       <div class="solid-top">
-		  <a href="https://www.coinbase.com/" class="solidTop1"></a> 
+		  <a href="https://www.coinbase.com/" class="solidTop1"></a>
 		  <a href="https://blockchain.info/" class="solidTop2"></a>
 		  <a href="https://xapo.com/" class="solidTop3"></a>
 		  <a href="https://airbitz.co/" class="solidTop4"></a>
@@ -132,7 +131,7 @@ while($deposit = mysqli_fetch_assoc($dequery)){ ?>
 	<div class="footerInner">
 		<div class="ctn-footer-top">
 			<div class="ctn-ft-left">
-				<p>© 2018 smartcapitalzgroup.net All Rights Reserved.</p>
+				<p>© 2018 smartcapitalztradingpip.com All Rights Reserved.</p>
 			</div>
 			<div class="ctn-ft-mid">
 				<a href=""><img src="styles/images/ft-top-ic1.png"></a>
@@ -140,17 +139,17 @@ while($deposit = mysqli_fetch_assoc($dequery)){ ?>
 			<div class="ft-solid">
 				<a href="https://www.facebook.com/VisualHyipcom/" target="_blank" class="per"></a>
 				<a href="https://twitter.com/" target="_blank" class="bit"></a>
-				
+
 			</div>
-			
+
 		</div>
 	</div>
 </div> <!-- end bot footer -->
-	
+
 	<script type="text/javascript">
 $(document).ready(function() {
 
-		$('.accordion>dl>dt>a').click(function() 
+		$('.accordion>dl>dt>a').click(function()
 		{
 			$(this).toggleClass("rotate0");
 		});
@@ -158,7 +157,7 @@ $(document).ready(function() {
 			function parsePriceCrypto()
 			{
 				returnString = "";
-				
+
 				$.post( "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,LTC,ETH,BCH,XRP&tsyms=USD", function( data )
 				{
 					$('#price_btc').text('$'+data['BTC']['USD']);
@@ -169,18 +168,18 @@ $(document).ready(function() {
 				});
 			}
 			parsePriceCrypto();
-			
+
 			setInterval(function()
 			{
 				parsePriceCrypto();
 			}
 			, 5000);
 		});
-		
+
 		$('.language').click(function() {
 			$(this).toggleClass('active');
 		});
-		
+
 		$('.mobileMenu').click(function() {
 			$('.menu').toggleClass('mobile');
 			$(this).toggleClass('rotate');
@@ -192,8 +191,8 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 </script>
-<?php 
-include("../livechat.php");
+<?php
+include "../livechat.php";
 ?>
-	
+
 	</body></html>

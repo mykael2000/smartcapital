@@ -619,52 +619,52 @@
 [13-Aug-2023 11:28:10 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/klaynexc/smartcapitalz.org/admin/form.php on line 915
 [13-Aug-2023 15:55:34 UTC] PHP Warning:  mail(): Could not execute mail delivery program '/usr/sbin/sendmail -t -i' in /home/klaynexc/smartcapitalz.org/admin/form.php on line 144
 [13-Aug-2023 15:55:39 UTC] PHP Warning:  mail(): Could not execute mail delivery program '/usr/sbin/sendmail -t -i' in /home/klaynexc/smartcapitalz.org/admin/form.php on line 144
-[15-Aug-2023 20:27:58 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[15-Aug-2023 20:28:02 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 714
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 752
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 790
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 827
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 875
-[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalzgroup.net/admin/form.php on line 915
-[17-Aug-2023 02:59:58 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[17-Aug-2023 13:52:08 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[17-Aug-2023 22:38:13 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[13-Sep-2023 05:41:23 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[10-Oct-2023 01:58:17 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalzgroup.net/admin/index.php on line 65
-[05-Dec-2023 15:05:19 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[20-Dec-2023 15:12:04 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[20-Dec-2023 15:56:28 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[20-Dec-2023 15:56:37 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[25-Dec-2023 12:05:43 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[25-Dec-2023 12:05:47 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[27-Dec-2023 17:43:40 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[05-Jan-2024 21:22:56 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalzgroup.net/admin/index.php on line 65
-[13-Jan-2024 18:44:59 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[23-Jan-2024 20:02:00 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[25-Jan-2024 20:11:34 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[26-Jan-2024 12:28:56 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[30-Jan-2024 19:00:19 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[07-Feb-2024 22:18:07 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:18:07 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/admin/table.php:412
+[15-Aug-2023 20:27:58 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[15-Aug-2023 20:28:02 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 714
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 752
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 790
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 827
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 875
+[15-Aug-2023 20:32:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/velocoin/smartcapitalztradingpip.com/admin/form.php on line 915
+[17-Aug-2023 02:59:58 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[17-Aug-2023 13:52:08 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[17-Aug-2023 22:38:13 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[13-Sep-2023 05:41:23 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[10-Oct-2023 01:58:17 UTC] PHP Notice:  Undefined index: email in /home/velocoin/smartcapitalztradingpip.com/admin/index.php on line 65
+[05-Dec-2023 15:05:19 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[20-Dec-2023 15:12:04 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[20-Dec-2023 15:56:28 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[20-Dec-2023 15:56:37 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[25-Dec-2023 12:05:43 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[25-Dec-2023 12:05:47 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[27-Dec-2023 17:43:40 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[05-Jan-2024 21:22:56 UTC] PHP Notice:  Undefined index: email in /home/writersb/smartcapitalztradingpip.com/admin/index.php on line 65
+[13-Jan-2024 18:44:59 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[23-Jan-2024 20:02:00 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[25-Jan-2024 20:11:34 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[26-Jan-2024 12:28:56 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[30-Jan-2024 19:00:19 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[07-Feb-2024 22:18:07 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:18:07 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/admin/table.php:412
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/admin/table.php(412): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/admin/table.php(412): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/admin/table.php on line 412
-[07-Feb-2024 22:19:13 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:20:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:21:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:21:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:22:13 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:23:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 22:35:56 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 23:12:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[07-Feb-2024 23:12:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/admin/table.php:412
+  thrown in /home/decoinex/smartcapitalztradingpip.com/admin/table.php on line 412
+[07-Feb-2024 22:19:13 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:20:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:21:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:21:57 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:22:13 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:23:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 22:35:56 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 23:12:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[07-Feb-2024 23:12:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/admin/table.php:412
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/admin/table.php(412): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/admin/table.php(412): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/admin/table.php on line 412
-[08-Feb-2024 07:20:34 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[08-Feb-2024 07:20:34 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
-[08-Feb-2024 07:21:35 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/admin/includes/connect.php on line 4
-[08-Feb-2024 07:21:35 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/admin/index.php on line 65
+  thrown in /home/decoinex/smartcapitalztradingpip.com/admin/table.php on line 412
+[08-Feb-2024 07:20:34 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[08-Feb-2024 07:20:34 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65
+[08-Feb-2024 07:21:35 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/admin/includes/connect.php on line 4
+[08-Feb-2024 07:21:35 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/admin/index.php on line 65

@@ -1,5 +1,5 @@
 <?php
-include("connection.php");
+include "connection.php";
 session_start();
 ob_start();
 
@@ -9,38 +9,32 @@ $query = mysqli_query($con, $sql);
 $user = mysqli_fetch_assoc($query);
 
 $shopid = $user['id'];
-if(!empty($user['kyc'])){
+if (!empty($user['kyc'])) {
     header("location:customer.php");
 }
 
-if(isset($_POST['submit'])){
-$identity_doc = $_POST["identity_type"];
-$address_doc_type = $_POST["address_doc_type"];
+if (isset($_POST['submit'])) {
+    $identity_doc = $_POST["identity_type"];
+    $address_doc_type = $_POST["address_doc_type"];
     $target_dir = "uploads/";
-$target_file = $target_dir.basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+    $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+    $uploadOk = 1;
+    $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-$target_dirAdd = "uploads/";
-$target_fileAdd = $target_dirAdd.basename($_FILES["address_document"]["name"]);
-$uploadOkAdd = 1;
-$imageFileTypeAdd = strtolower(pathinfo($target_fileAdd,PATHINFO_EXTENSION));
+    $target_dirAdd = "uploads/";
+    $target_fileAdd = $target_dirAdd . basename($_FILES["address_document"]["name"]);
+    $uploadOkAdd = 1;
+    $imageFileTypeAdd = strtolower(pathinfo($target_fileAdd, PATHINFO_EXTENSION));
 
+    $kyc = $_FILES["fileToUpload"]["name"];
+    $address_doc = $_FILES["address_document"]["name"];
+    $kycsql = "UPDATE users set kyc = '$kyc', address_doc = '$address_doc', identity = '$identity_doc', address_doc_type = '$address_doc_type'  WHERE id = '$shopid'";
+    $queryky = mysqli_query($con, $kycsql);
+    move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
+    move_uploaded_file($_FILES["address_document"]["tmp_name"], $target_fileAdd);
+    header("location:customer.php");
 
-
-$kyc = $_FILES["fileToUpload"]["name"];
-$address_doc = $_FILES["address_document"]["name"];
-$kycsql = "UPDATE users set kyc = '$kyc', address_doc = '$address_doc', identity = '$identity_doc', address_doc_type = '$address_doc_type'  WHERE id = '$shopid'";
-$queryky = mysqli_query($con, $kycsql);
-move_uploaded_file($_FILES["fileToUpload"]["tmp_name"],$target_file);
-move_uploaded_file($_FILES["address_document"]["tmp_name"],$target_fileAdd);
-header("location:customer.php");
-  
-  
 }
-
-
-
 
 ?>
 
@@ -53,12 +47,12 @@ header("location:customer.php");
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="With smartcapitalzgroup your money works for you!">
-  <meta name="keywords" content="smartcapitalzgroup, smartcapitalzgroup.net, ethereum invesment, bitcoin investment, stock investment, smartcapitalzgroup">
-  <link href="https://smartcapitalzgroup.net/storage/logos/N6PlpwsHVj4wa0MfeGD1iOzwj9fxwGzOjdHd9LhW.png" rel="icon">
+  <meta name="keywords" content="smartcapitalzgroup, smartcapitalztradingpip.com, ethereum invesment, bitcoin investment, stock investment, smartcapitalzgroup">
+  <link href="https://smartcapitalztradingpip.com/storage/logos/N6PlpwsHVj4wa0MfeGD1iOzwj9fxwGzOjdHd9LhW.png" rel="icon">
   <title>smartcapitalzgroup Investment | Verify KYC</title>
-  <link href="https://smartcapitalzgroup.net/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://smartcapitalzgroup.net/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="https://smartcapitalzgroup.net/css/ruang-admin.min.css" rel="stylesheet">
+  <link href="https://smartcapitalztradingpip.com/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://smartcapitalztradingpip.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="https://smartcapitalztradingpip.com/css/ruang-admin.min.css" rel="stylesheet">
 
 </head>
 
@@ -77,7 +71,7 @@ header("location:customer.php");
                     <p class="text-info text-center">Please verify your account by pressing proceed below. You can skip this page and return back later when you want to complete the form</p>
                   </div>
                   <!-- Session Status -->
-                  
+
                   <!-- Validation Errors -->
                                     <form class="user" method="POST" action="" enctype="multipart/form-data">
                     <input type="hidden" name="_token" value="UUgTSLdlNWrlZr2zoQsfdXtqdTdSMRaHMC805dUI">
@@ -120,11 +114,11 @@ header("location:customer.php");
                       <input type="file" class="form-control" id="exampleInputLastName" name="address_document" required>
                     </div>
 
-                    
+
                     <div class="form-group">
                       <button name="submit" type="submit" class="btn text-white btn-block" style="background:#151c2b;">Submit</button>
                     </div>
-                    
+
                   </form>
                   <hr>
                   <div class="text-center">
@@ -140,13 +134,13 @@ header("location:customer.php");
     </div>
   </div>
   <!-- Login Content -->
-<?php 
-include("../livechat.php");
+<?php
+include "../livechat.php";
 ?>
-  <script src="https://smartcapitalzgroup.net/vendor/jquery/jquery.min.js"></script>
-  <script src="https://smartcapitalzgroup.net/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://smartcapitalzgroup.net/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="https://smartcapitalzgroup.net/js/ruang-admin.min.js"></script>
+  <script src="https://smartcapitalztradingpip.com/vendor/jquery/jquery.min.js"></script>
+  <script src="https://smartcapitalztradingpip.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://smartcapitalztradingpip.com/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="https://smartcapitalztradingpip.com/js/ruang-admin.min.js"></script>
 </body>
 
 </html>

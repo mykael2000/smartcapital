@@ -1,226 +1,226 @@
 
-[05-Feb-2024 23:24:27 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[05-Feb-2024 23:24:27 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 12:03:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 18:13:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 19:59:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 19:59:54 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+[05-Feb-2024 23:24:27 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[05-Feb-2024 23:24:27 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 12:03:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 18:13:16 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 19:59:54 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 19:59:54 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:00:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:00:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:00:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:00:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:00:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:00:35 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:00:35 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:00:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:00:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:00:35 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:00:35 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:00:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:01:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:01:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:01:06 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:01:06 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:01:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:01:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:01:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:01:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:01:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:01:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:01:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:01:57 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:02:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:02:21 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:02:21 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:02:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:02:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:02:21 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:02:21 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:02:21 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:02:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:02:43 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:02:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:02:43 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:03:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:03:31 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:03:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:03:31 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:04:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:04:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:04:05 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:04:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:04:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:04:15 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:04:15 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:04:15 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:04:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:04:15 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:04:15 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:04:15 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:04:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:04:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:04:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:04:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:05:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:05:08 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:05:08 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:05:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:05:08 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:05:08 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:05:08 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:05:08 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:32:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:32:00 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:32:00 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:32:00 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:32:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:32:00 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:32:00 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:32:00 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:32:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:32:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:32:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:32:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:32:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:32:29 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:32:29 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:32:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:32:29 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:32:29 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:32:29 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:32:29 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:32:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:32:37 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[07-Feb-2024 20:32:37 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[07-Feb-2024 20:32:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:32:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:32:37 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[07-Feb-2024 20:32:37 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[07-Feb-2024 20:32:37 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:32:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:32:58 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:32:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:32:58 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 20:46:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 20:46:51 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 20:46:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'decoinex_smart'@'s1246.usc1.mysecurecloudhost.com' (using password: YES) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 20:46:51 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:36:46 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:36:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:36:46 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:36:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:54:35 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:54:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:54:35 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:54:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:55:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:55:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:55:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:55:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:56:50 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:56:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:56:50 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:56:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:57:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:57:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 22:57:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:57:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:57:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 22:57:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 22:57:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 22:57:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 23:00:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 23:00:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 23:00:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 23:00:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[07-Feb-2024 23:09:07 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[07-Feb-2024 23:09:07 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[07-Feb-2024 23:09:07 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[07-Feb-2024 23:09:07 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[08-Feb-2024 03:09:49 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[08-Feb-2024 03:09:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[08-Feb-2024 03:09:49 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[08-Feb-2024 03:09:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[08-Feb-2024 03:11:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[08-Feb-2024 03:11:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[08-Feb-2024 03:11:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[08-Feb-2024 03:11:03 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[08-Feb-2024 03:52:38 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[08-Feb-2024 03:52:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[08-Feb-2024 03:52:38 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[08-Feb-2024 03:52:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[08-Feb-2024 03:54:53 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[08-Feb-2024 03:54:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[08-Feb-2024 03:54:53 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[08-Feb-2024 03:54:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[08-Feb-2024 03:55:26 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalzgroup.net/dashboard/connection.php on line 3
-[08-Feb-2024 03:55:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalzgroup.net/login.php:15
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[08-Feb-2024 03:55:26 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to server on 'mocha3039.mochahost.com' (115) in /home/decoinex/smartcapitalztradingpip.com/dashboard/connection.php on line 3
+[08-Feb-2024 03:55:26 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/decoinex/smartcapitalztradingpip.com/login.php:15
 Stack trace:
-#0 /home/decoinex/smartcapitalzgroup.net/login.php(15): mysqli_query()
+#0 /home/decoinex/smartcapitalztradingpip.com/login.php(15): mysqli_query()
 #1 {main}
-  thrown in /home/decoinex/smartcapitalzgroup.net/login.php on line 15
-[09-Feb-2024 17:14:18 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[09-Feb-2024 17:14:18 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[09-Feb-2024 17:17:50 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[09-Feb-2024 17:17:50 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[12-Feb-2024 16:58:13 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[12-Feb-2024 16:58:36 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[12-Feb-2024 17:00:06 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[12-Feb-2024 17:01:23 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[12-Feb-2024 17:01:23 UTC] PHP Warning:  Undefined variable $firstname in /home/decoinex/smartcapitalzgroup.net/validate.php on line 69
-[12-Feb-2024 17:01:27 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[12-Feb-2024 17:03:26 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[12-Feb-2024 17:03:26 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
-[17-Feb-2024 00:57:48 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalzgroup.net/validate.php on line 18
-[18-Feb-2024 22:24:55 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalzgroup.net/login.php on line 10
-[18-Feb-2024 22:24:55 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalzgroup.net/login.php on line 12
+  thrown in /home/decoinex/smartcapitalztradingpip.com/login.php on line 15
+[09-Feb-2024 17:14:18 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[09-Feb-2024 17:14:18 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[09-Feb-2024 17:17:50 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[09-Feb-2024 17:17:50 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[12-Feb-2024 16:58:13 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[12-Feb-2024 16:58:36 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[12-Feb-2024 17:00:06 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[12-Feb-2024 17:01:23 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[12-Feb-2024 17:01:23 UTC] PHP Warning:  Undefined variable $firstname in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 69
+[12-Feb-2024 17:01:27 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[12-Feb-2024 17:03:26 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[12-Feb-2024 17:03:26 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12
+[17-Feb-2024 00:57:48 UTC] PHP Warning:  Undefined array key "ethereum" in /home/decoinex/smartcapitalztradingpip.com/validate.php on line 18
+[18-Feb-2024 22:24:55 UTC] PHP Warning:  Undefined array key "email" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 10
+[18-Feb-2024 22:24:55 UTC] PHP Warning:  Undefined array key "password" in /home/decoinex/smartcapitalztradingpip.com/login.php on line 12

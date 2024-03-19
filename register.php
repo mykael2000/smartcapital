@@ -1,20 +1,20 @@
 <?php
 
-include("dashboard/connection.php");
+include "dashboard/connection.php";
 ob_start();
 session_start();
-if(!empty($_GET['ref'])){
-  $ref = $_GET['ref'];
-}else{
-  $ref = "";
+if (!empty($_GET['ref'])) {
+    $ref = $_GET['ref'];
+} else {
+    $ref = "";
 }
-$one = rand(0,9);
-$two = rand(0,9);
-$three = rand(0,9);
-$four = rand(0,9);
-$code = $one.$two.$three.$four;
+$one = rand(0, 9);
+$two = rand(0, 9);
+$three = rand(0, 9);
+$four = rand(0, 9);
+$code = $one . $two . $three . $four;
 $_SESSION['code'] = $code;
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     $fullname = $_POST['name'];
     $username = $_POST['username'];
     $email = $_POST['email'];
@@ -30,59 +30,54 @@ if(isset($_POST['submit'])){
     $ssn = $_POST['ssn'];
     $emailcheck = "SELECT * FROM users WHERE email = '$email'";
     $result = mysqli_query($con, $emailcheck);
-    if(mysqli_num_rows($result)){
-       
-       echo "<script>alert('email already exists')</script>";
-      
-    }elseif($password !== $cpassword){
-       echo "<script>alert('passwords do not match')</script>";
-      
-    }elseif($_SESSION['code'] !== $_POST['code']){
-         echo $_SESSION['code']." ".$_POST['code'];
-    }else{
-    $sql = "INSERT into users (name, username, email, country, bitcoin, ethereum, phone, referral, question, answer, password, ssn) VALUES ('$fullname','$username','$email','$country','$bitcoin','$ethereum','$phone','$ref','$question','$answer','$password','$ssn')";
-    $query = mysqli_query($con, $sql);
+    if (mysqli_num_rows($result)) {
 
+        echo "<script>alert('email already exists')</script>";
 
+    } elseif ($password !== $cpassword) {
+        echo "<script>alert('passwords do not match')</script>";
 
+    } elseif ($_SESSION['code'] !== $_POST['code']) {
+        echo $_SESSION['code'] . " " . $_POST['code'];
+    } else {
+        $sql = "INSERT into users (name, username, email, country, bitcoin, ethereum, phone, referral, question, answer, password, ssn) VALUES ('$fullname','$username','$email','$country','$bitcoin','$ethereum','$phone','$ref','$question','$answer','$password','$ssn')";
+        $query = mysqli_query($con, $sql);
 
+        $from = 'support@smartcapitalztradingpip.com';
+        $to = $email;
+        $subject = "You Have Succesfully Registered At smartcapitalztradingpip.com - The Journey Begins";
 
-$from = 'support@smartcapitalzgroup.net';
-                    $to   = $email;
-                    $subject = "You Have Succesfully Registered At smartcapitalzgroup.net - The Journey Begins";
+        $message = '<html><body>';
+        $message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">Mail From smartcapitalzgroup - Thanks for Signing Up</h3></div><div style="background-color: white; color: black;">';
+        $message .= '<hr/>';
+        $message .= '<h5>Note : the details in this email should not be disclosed to anyone</<h5><br>';
+        $message .= '<h5>Dear<br/>';
+        $message .= $firstname;
+        $message .= '<hr/><br/>Thanks  For Signing Up at smartcapitalzgroup the most convinient way to invest in crypto and much more.., we look forward to making your financial goals come true and offering a long term of service to you.</h5>';
 
+        $message .= '<h5>Regarding  What To Do Next Please Login To Your Account <br/><ul><li>And Send Your Valid Identity Documents To support@smartcapitalztradingpip.com To Fully Verify Your Account</li><li>Fund Your Account To Fully Activate Your Account</ul></h5>';
+        $message .= '<h5>You Will Be Contacted With More Information By The Admins<br/>Note : This Is An Automated Email</h5>';
+        $message .= '<a href="http://smartcapitalztradingpip.com/login.php"><h4 style="color: blue;">Verify your account<h4></a>';
+        $message .= '</div><hr/>';
+        $message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">smartcapitalztradingpip.com<sup>TM</sup> - Phone : +17868293117</h3>';
+        $message .= '</div>';
+        $message .= "</body></html>";
 
-                    $message = '<html><body>';
-                    $message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">Mail From smartcapitalzgroup - Thanks for Signing Up</h3></div><div style="background-color: white; color: black;">';
-                    $message .= '<hr/>';
-                    $message .= '<h5>Note : the details in this email should not be disclosed to anyone</<h5><br>';
-                    $message .= '<h5>Dear<br/>';
-                    $message .=  $firstname;
-                    $message .= '<hr/><br/>Thanks  For Signing Up at smartcapitalzgroup the most convinient way to invest in crypto and much more.., we look forward to making your financial goals come true and offering a long term of service to you.</h5>';
-                   
-                    $message .= '<h5>Regarding  What To Do Next Please Login To Your Account <br/><ul><li>And Send Your Valid Identity Documents To support@smartcapitalzgroup.net To Fully Verify Your Account</li><li>Fund Your Account To Fully Activate Your Account</ul></h5>';
-                     $message .= '<h5>You Will Be Contacted With More Information By The Admins<br/>Note : This Is An Automated Email</h5>';
-                     $message .= '<a href="http://smartcapitalzgroup.net/login.php"><h4 style="color: blue;">Verify your account<h4></a>';
-                    $message .= '</div><hr/>';
-                    $message .= '<div style="background-color: blue; color: white;"><h3 style="color: white;">smartcapitalzgroup.net<sup>TM</sup> - Phone : +17868293117</h3>';
-                     $message .= '</div>';
-                     $message .= "</body></html>";
+        $headers = "From: " . $from . "\r\n";
+        $headers .= "Reply-To: " . $from . "\r\n";
+        $headers .= "CC: support@smartcapitalztradingpip.com\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-                     $headers = "From: " . $from . "\r\n";
-                     $headers .= "Reply-To: ". $from . "\r\n";
-                     $headers .= "CC: support@smartcapitalzgroup.net\r\n";
-                     $headers .= "MIME-Version: 1.0\r\n";
-                     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
-                        mail($to, $subject, $message, $headers);                           echo '<div class="alert alert-success">
+        mail($to, $subject, $message, $headers);
+        echo '<div class="alert alert-success">
                         You Are Successfully Registered  Please Check Your Mailbox For Further Instructions!
                 </div>';
-    echo "<script>alert('registration successful')</script>";
-    header("refresh: 1; url=login.html?log=yes");
+        echo "<script>alert('registration successful')</script>";
+        header("refresh: 1; url=login.html?log=yes");
     }
 }
-    
-    
+
 ?>
 
 
@@ -103,9 +98,9 @@ $from = 'support@smartcapitalzgroup.net';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="With smartcapitalzgroup your money works for you!">
     <meta name="keywords"
-        content="smartcapitalzgroup, smartcapitalzgroup.net, ethereum invesment, bitcoin investment, stock investment, smartcapitalzgroup.net">
+        content="smartcapitalzgroup, smartcapitalztradingpip.com, ethereum invesment, bitcoin investment, stock investment, smartcapitalztradingpip.com">
     <link href="images/smartcapitalz.png" rel="icon">
-    <title>smartcapitalzgroup.net Investment | Login</title>
+    <title>smartcapitalztradingpip.com Investment | Login</title>
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/ruang-admin.min.css" rel="stylesheet">
@@ -118,7 +113,7 @@ $from = 'support@smartcapitalzgroup.net';
     padding: 10px;
     margin-top: 10px;
   }
-  
+
   .number-box {
     display: inline-block;
     font-size: 36px;
@@ -129,7 +124,7 @@ $from = 'support@smartcapitalzgroup.net';
     margin: 10px;
     width: 70px;
   }
-  
+
   .line {
     display: block;
     width: 100%;
@@ -552,7 +547,7 @@ $from = 'support@smartcapitalzgroup.net';
 
 
                                         <div class="form-group">
-                                            <?php  if(!empty($ref)){ ?>
+                                            <?php if (!empty($ref)) {?>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label>Referral</label>
@@ -560,10 +555,10 @@ $from = 'support@smartcapitalzgroup.net';
                                                         id="exampleInputPaord" value="<?php echo $ref; ?>" readonly>
                                                 </div>
                                             </div>
-                                            <?php } ?>
+                                            <?php }?>
                                            <div class="custom-recaptcha">
                                             <p>Please verify by entering the numbers:</p>
-                                            
+
                                             <div id="one" class="number-box"><?php echo $one; ?></div>
                                             <div id="two" class="number-box"><?php echo $two; ?></div>
                                             <div id="three" class="number-box"><?php echo $three; ?></div>
@@ -571,7 +566,7 @@ $from = 'support@smartcapitalzgroup.net';
                                             <div class="line"></div>
                                             <input type="text" name="code" maxlength="4" style="text-align: center; font-size: 24px; border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
                                           </div>
-  
+
                                             <button name="submit" type="submit" class="btn btn-block text-white"
                                                 style="background:#151c2b;">Create Account</button>
                                         </div>
@@ -630,7 +625,7 @@ $from = 'support@smartcapitalzgroup.net';
   function showNotification() {
     const name = names[getRandomIndex(names)];
     const amount = getRandomAmount();
-    
+
     const notification = document.getElementById('notification');
     notification.textContent = `${name} has just been credited $${amount} dollars some minutes ago.`;
     notification.style.display = 'block';
