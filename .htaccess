@@ -1,4 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} smartcapitalzgroup\.net [NC]
+RewriteCond %{HTTP_HOST} smartcapitalztradingpip\.com [NC]
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://smartcapitalztradingpip.com/$1 [R,L]
